@@ -1,6 +1,21 @@
-# Mi Portafolio Profesional
+# Portafolio Profesional de Wilder Arredondo
 
-¡Bienvenido a mi portafolio! Este sitio muestra mis proyectos, habilidades y experiencia.
+Portafolio profesional que muestra habilidades, proyectos y experiencia en redes, telecomunicaciones y seguridad informática.
+
+## Características
+
+- Diseño moderno y responsive
+- Efectos visuales atractivos
+- Secciones organizadas
+- Formulario de contacto funcional
+
+## Tecnologías Utilizadas
+
+- HTML5
+- CSS3 (Flexbox, Grid, Variables CSS)
+- JavaScript Vanilla
+- Font Awesome para iconos
+- Google Fonts para tipografía
 
 ## Estructura del Proyecto
 
@@ -10,14 +25,8 @@
 - `js/`: Funcionalidad JavaScript
 - `imagenes/`: Assets visuales
 
-## Tecnologías Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript Vanilla
-
 ## Cómo Contribuir
 
 1. Clona el repositorio
 2. Haz tus cambios
-3. Envía un Pull Request# PortafolioW.github.io
+3. Envía un Pull Request
