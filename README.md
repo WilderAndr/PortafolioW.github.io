@@ -1,22 +1,25 @@
 # Portafolio Profesional de Wilder Arredondo
 
-Portafolio profesional que muestra habilidades, proyectos y experiencia en redes, telecomunicaciones y seguridad informática.
+Portafolio profesional que muestra habilidades, proyectos y experiencia en redes, telecomunicaciones.
 
-## Características
+## Estructura del Proyecto
 
-- Diseño moderno y responsive
-- Efectos visuales atractivos
-- Secciones organizadas
-- Formulario de contacto funcional
+- `index.html`: Página principal
+- `paginas/`: Contiene las páginas secundarias
+  - `sobre-mi.html`: Información personal y profesional
+  - `habilidades.html`: Habilidades técnicas y certificaciones
+  - `proyectos.html`: Proyectos realizados
+  - `contacto.html`: Formulario de contacto
+- `css/estilo.css`: Estilos principales
+- `js/main.js`: Funcionalidades JavaScript
+- `imagenes/`: Archivos de imágenes
 
 ## Tecnologías Utilizadas
 
 - HTML5
-- CSS3 (Flexbox, Grid, Variables CSS)
-- JavaScript Vanilla
-- Font Awesome para iconos
-- Google Fonts para tipografía
-
+- CSS3 
+- JavaScript
+  
 ## Estructura del Proyecto
 
 - `index.html`: Página principal
@@ -29,4 +32,3 @@ Portafolio profesional que muestra habilidades, proyectos y experiencia en redes
 
 1. Clona el repositorio
 2. Haz tus cambios
-3. Envía un Pull Request
