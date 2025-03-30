@@ -1,10 +1,5 @@
-// Función para cargar contenido dinámico
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Portafolio cargado correctamente');
-    
-    // Puedes añadir interactividad aquí
-    // Ejemplo: Efecto smooth scroll para los enlaces
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
             document.querySelector(this.getAttribute('href')).scrollIntoView({
@@ -12,4 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Gracias por tu mensaje. Me pondré en contacto contigo pronto.');
+            this.reset();
+        });
+    }
 });
